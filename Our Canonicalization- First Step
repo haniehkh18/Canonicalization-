@@ -1,0 +1,144 @@
+Based on the semantic similarity and the context they represent, the following groups can be created:
+
+```json
+{
+    "group 1": [
+        "estimated_growth_for_year",
+        "projected_to_expand_by_year",
+        "improves to",
+        "stabilizes at",
+        "projected to be",
+        "peaked at",
+        "expected rebound",
+        "projection for",
+        "projected value",
+        "expected value",
+        "forecast for",
+        "forecasted value",
+        "projections_for",
+        "in_year",
+        "projection_rate",
+        "become more confident and save less",
+        "could outperform",
+        "expected to conduct purchases in",
+        "has expectation about net asset purchases pace in",
+        "expects to conduct net asset purchases at lower pace under",
+        "paced slower than"
+    ],
+    "group 2": [
+        "has_risk",
+        "affected_by_risk",
+        "are risks to",
+        "consequence_of",
+        "hamper production of",
+        "hamper_production_of",
+        "cause delays in",
+        "slow down recovery in",
+        "less tightening due to",
+        "could be a drag on"
+    ],
+    "group 3": [
+        "revised_in",
+        "revised_compared_with",
+        "revision_period",
+        "adjusted for",
+        "revision_for",
+        "revised_to",
+        "remain stable since",
+        "have remained stable since"
+    ],
+    "group 4": [
+        "expected_to_ease_by",
+        "persist for some time",
+        "start to ease during",
+        "improved by",
+        "transitions from",
+        "followed by",
+        "returns more quickly to",
+        "remains_robust_for",
+        "strengthened",
+        "improvement_indicator",
+        "observed progress toward"
+    ],
+    "group 5": [
+        "weighed_by",
+        "benefited_from",
+        "tightens in",
+        "should complement",
+        "needs to maintain",
+        "took decisions in response to",
+        "will reduce pace of",
+        "decided to extend",
+        "intends to reinvest",
+        "purchased under",
+        "has reinvestment deadline until"
+    ],
+    "group 6": [
+        "excluding_region",
+        "contributes to",
+        "perceived_as",
+        "across",
+        "described_as",
+        "dominant_source",
+        "partly_driven_by",
+        "affects",
+        "stem_from",
+        "increases_expenses_on",
+        "state_of",
+        "moderated_by",
+        "associated_with",
+        "driven_by",
+        "managed to avoid"
+    ],
+    "group 7": [
+        "estimated to be",
+        "predicts",
+        "expected to ease by",
+        "foresight of",
+        "compared_with",
+        "excluding_component",
+        "perceives",
+        "could be higher",
+        "timed_at",
+        "occurred_in",
+        "state_for",
+        "assesses",
+        "relates",
+        "supports",
+        "influences",
+        "prevents",
+        "impact on",
+        "is considered",
+        "preserves",
+        "addresses",
+        "judged"
+    ],
+    "group 8": [
+        "remain stable since",
+        "remains over",
+        "have remained stable since"
+    ],
+    "group 9": [
+        "contributes to",
+        "required for",
+        "decided step-by-step reduction in"
+    ],
+    "group 10": [
+        "target of",
+        "target over",
+        "from",
+        "of"
+    ],
+    "group 11": [
+        "cause",
+        "feed through into",
+        "consequence_of"
+    ],
+    "group 12": [
+        "occurred in",
+        "in_year",
+        "from",
+        "of"
+    ]
+}
+
