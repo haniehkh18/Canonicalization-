@@ -1,0 +1,42 @@
+Based on the information provided and the semantic similarity of the relations, here is a proposed canonicalization for Group 3:
+
+- revised_in -> revised
+- revised_compared_with -> revised
+- revision_period -> revise over period
+- adjusted for -> adjusted
+- revision_for -> revised
+- revised_to -> revised
+- remain stable since -> stability since
+- have remained stable since -> stability since
+
+Output:
+```
+relation -> new relation
+needs reversal: yes or no
+
+revised_in -> revised
+needs reversal: no
+
+revised_compared_with -> revised
+needs reversal: no
+
+revision_period -> revise over period
+needs reversal: no
+
+adjusted for -> adjusted
+needs reversal: no
+
+revision_for -> revised
+needs reversal: no
+
+revised_to -> revised
+needs reversal: no
+
+remain stable since -> stability since
+needs reversal: no
+
+have remained stable since -> stability since
+needs reversal: no
+```
+
+In each case, the original relation is mapped onto the proposed canonical relation. If the meaning of the relationship requires the subject and object to be swapped for the canonical form, then reversal would be necessary, but none of the relations in Group 3 require that.

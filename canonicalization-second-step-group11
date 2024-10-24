@@ -1,0 +1,23 @@
+For group 11, I will analyze the semantic relationship between "cause," "feed through into," and "consequence_of" and propose a common relation:
+
+- "cause" implies that one event is the reason for another event happening.
+- "feed through into" can be understood as a situation or action that results in another situation or condition.
+- "consequence_of" clearly states that one event is the result of another event.
+
+These relations all imply a cause-effect relationship. Therefore, a common relation to represent them could be 'cause'.
+
+Here is the canonicalization for group 11:
+
+| relation         | new relation |
+|------------------|--------------|
+| cause            | cause        |
+| feed through into| cause        |
+| consequence_of   | cause        |
+
+| needs reversal: | yes or no |
+|-----------------|-----------|
+| cause           | no        |
+| feed through into| yes      |
+| consequence_of  | yes       |
+
+So, the canonical form of these relations would be 'cause' and 'consequence_of' as well as 'feed through into' would need the subject and object to be reversed in order to fit into the canonical 'cause' relation.

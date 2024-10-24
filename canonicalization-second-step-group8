@@ -1,0 +1,27 @@
+```json
+{
+    "group 8": [
+        "remain stable since",
+        "remains over",
+        "have remained stable since"
+    ]
+}
+```
+
+For the relations in Group 8, the following canonicalization can be proposed:
+
+**remain stable since** -> **remain stable**
+**remains over** -> **remain over**
+**have remained stable since** -> **remain stable**
+
+All three relations imply a sense of persistence or stability over time. Thus, we can use "remain stable" as the representative relation for this subgroup. However, "remains over" might imply a comparative or threshold aspect that the others don't explicitly have, but in the absence of further context, I'll assume the core semantic is stability over time.
+
+Canonicalized group: **remain stable**
+Relation -> new relation:
+"remain stable since" -> "remain stable"
+"remains over" -> "remain over" (or "remain stable" if interpreted as stability above a threshold)
+"have remained stable since" -> "remain stable"
+
+Needs reversal: no
+
+Please note that "remain over" could be keeping the more nuanced meaning, depending on the broader usage context which is not provided here. If more information indicated these phrases were used in different contexts or had significantly different meanings, they might not be grouped together.

@@ -1,0 +1,32 @@
+```json
+{
+  "group 10": [
+    {
+      "original_relation": "target of",
+      "canonical_relation": "target",
+      "needs_reversal": "yes"
+    },
+    {
+      "original_relation": "target over",
+      "canonical_relation": "target",
+      "needs_reversal": "no"
+    },
+    {
+      "original_relation": "from",
+      "canonical_relation": "source",
+      "needs_reversal": "yes"
+    },
+    {
+      "original_relation": "of",
+      "canonical_relation": "associated with",
+      "needs_reversal": "yes"
+    }
+  ]
+}
+```
+
+Points to Note:
+1. Some relations could potentially fit into multiple categories, depending on the specific context in which they are used. Decisions were made based on typical use cases.
+2. Variations of a relation (e.g., "increases expenses on" and "increases expenses") have been included in the same category, assuming they represent the same semantic relationship.
+3. The categories created are meant to group the relations by their high-level meaning and purpose, with some flexibility given the abstraction involved.
+4. It's important to remember that while certain relations seem similar, in practice, they might be used in different domain-specific contexts which would necessitate keeping them separate. This could only be determined with full context and usage examples, which are not provided here.

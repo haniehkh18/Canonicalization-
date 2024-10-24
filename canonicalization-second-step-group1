@@ -1,0 +1,55 @@
+Based on the semantic similarity in the context of economic forecasts, financial projections, or assessments, here are the proposed groupings with a common relation:
+
+Group 1 [Estimation and Projection]:
+- estimated_growth_for_year
+- projected_to_expand_by_year
+- projection for
+- projected value
+- expected value
+- forecast for
+- forecasted value
+- projections_for
+- projection_rate
+- in_year
+
+Common Relation: "projection for"
+Needs reversal: No
+
+Group 2 [Peaking and Stabilization]:
+- peaked at
+- stabilizes at
+
+Common Relation: "stabilizes at"
+Needs reversal: No
+
+Group 3 [Improvement and Outperformance]:
+- improves to
+- could outperform
+
+Common Relation: "improves to"
+Needs reversal: No
+
+Group 4 [Expectation and Purchase Pace]:
+- expected to conduct purchases in
+- has expectation about net asset purchases pace in
+- expects to conduct net asset purchases at lower pace under
+- paced slower than
+
+Common Relation: "expects purchase pace"
+Needs reversal: No
+
+Group 5 [Confidence and Saving Behavior]:
+- become more confident and save less (requires two relations)
+  - "becomes more confident"
+  - "saves less"
+Needs reversal: Yes for "saves less"
+
+(Note: This group has a relation that suggests actions relating to confidence and saving behavior, which don't neatly fit into a simple 'projection for', 'improves to', etc. Thus, two relations are proposed, and for 'saves less', subject and object need to be reversed.)
+
+The remaining relations did not cluster into semantically similar groups based on the provided relations. For a more accurate clustering, additional context or examples of usage may be necessary. Canonicalization is highly dependent on the precise meanings and contexts in which relations are used, and some relations may require more nuanced understanding or could fit into more than one group depending on context.
+
+Points to Note:
+1. Some relations could fit into multiple categories, decisions were made based on typical use cases.
+2. Variations of a relation have been included in the same category, assuming they represent the same semantic relationship.
+3. Created categories are meant to group the relations by their high-level meaning and purpose, with some flexibility given the abstraction involved.
+4. Practical usage may differ, and some relations might be domain-specific, which would necessitate keeping them separate. Full context and usage examples are not provided here.
